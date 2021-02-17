@@ -12,6 +12,7 @@ public class Dziennik {
 
 
 
+
 // nie wiem dla czego zawsze otrzymuje wynik 0
         int ostatnia = oceny.ostatniaOcena();
         System.out.println(ostatnia);

@@ -1,6 +1,6 @@
 public class Obiekty {
     public static void main(String[] args) {
-        Notebook notebook = new Notebook(600, 105, 2012);
+        Notebook notebook = new Notebook(600, 105, 2015);   // to jest obiekt
         System.out.println("Pierwszy notebook waży:" + notebook.weight + " gr   kosztuje: " + notebook.price  + " złoty. Rok produkckji: " + notebook.year);
         notebook.checkPrice();
         notebook.checkWeight();

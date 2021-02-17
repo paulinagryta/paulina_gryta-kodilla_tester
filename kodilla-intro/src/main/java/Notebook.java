@@ -1,13 +1,17 @@
 public class Notebook {
+   // to sa zmienne
     int weight;
     int price;
     int year;
 
+    // to jest konstruktor który stworzył obiekt
     public Notebook(int weight , int price, int year) {
         this.weight = weight;
         this.price = price;
         this.year = year;
     }
+
+    // to są metody działajace na ten obiekt
 
     public void checkPrice() {
         if (this.price < 600) {

@@ -6,12 +6,12 @@ public class Loop {
      * c) wyswitla elementy tabeli
      */
     public static void main(String[] args) {
+        String[] names = new String[] {"Zygfryd", "Gwidon", "Florentyna"};
 
         for (int i = 0; i <= 5; i++) {
             System.out.println(i);
         }
 
-        String[] names = new String[] {"Zygfryd", "Gwidon", "Florentyna"};
 
         int numberOfElements = names.length;
         System.out.print("moja tablica zawiera ");
@@ -26,5 +26,7 @@ public class Loop {
         for (int i = names.length - 1; i >= 0; i--) {
             System.out.println(names[i]);
         }
+
+
     }
 }

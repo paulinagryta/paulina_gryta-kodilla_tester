@@ -26,6 +26,7 @@ public class Grades {
     }
 
 
+
     public int ostatniaOcena() {
         return this.grades[this.size];
     }
