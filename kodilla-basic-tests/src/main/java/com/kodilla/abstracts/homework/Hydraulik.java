@@ -9,7 +9,7 @@ public class Hydraulik extends Job {
 
     @Override
     public void giveResp(){
-        System.out.println("Hydraulik zarabia  " + getSalary());
+        System.out.println("Hydraulik  zarabia  " + getSalary());
         System.out.println("   ");
     }
 

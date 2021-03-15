@@ -22,5 +22,6 @@ public class Person {
         Lekarz lekarz = new Lekarz(1800, "leczenie");
         lekarz.giveSalary();
         lekarz.giveResp();
+
     }
 }

@@ -10,7 +10,7 @@ public class Dyrektor extends Job{
 
     @Override
     public void giveResp(){
-        System.out.println("Dyrektor zarabia  " + getSalary());
+        System.out.println("Dyrektor  zarabia  " + getSalary());
         System.out.println("   ");
     }
 

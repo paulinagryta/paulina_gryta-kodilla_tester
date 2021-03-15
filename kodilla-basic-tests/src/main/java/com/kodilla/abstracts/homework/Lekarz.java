@@ -11,7 +11,7 @@ public class Lekarz extends Job {
 
     @Override
     public void giveResp() {
-        System.out.println("Lekarz zarabia  " + getSalary());
+        System.out.println("Lekarz   zarabia  " + getSalary());
 
     }
 
