@@ -24,6 +24,7 @@ public class CalculatorTestSuite {
         assertEquals(0, subtractResult);
     }
 
+
     @Test
     public void testsquaredA() {
         int a = 6;
