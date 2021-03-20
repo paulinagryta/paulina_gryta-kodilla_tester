@@ -10,7 +10,6 @@ public class Application {
         int squaredAResult = calculator.squaredA(a);
         int squaredBResult = calculator.squaredB(b);
 
-
         boolean correct = ResultChecker.assertEquals(13, sumResult);
         if (correct) {
             System.out.println("Metoda sum działa poprawnie dla liczb " + a + " i " + b);
